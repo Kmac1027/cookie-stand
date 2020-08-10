@@ -3,8 +3,17 @@
 var seattle = {
   minPeople: 23,
   maxPeople: 65,
-  avgCookie: 6.3
+  avgCookie: 6.3,
+  render: function(){
+    var seattleCustomers = math.random(this.minPeople, this.maxPeople)
+    var cookiesBaked = seattleCustomers * this.avgCookie
+    var parent = document.getElementById('seattle');
+    var listItem = document.createElement('li');
+    listItem.textContent = cookiesBaked ;
+    parent.appendChild(listItem);
+  }
 }
+seattle.render();
 
 var tokyo = {
   minPeople: 3,
