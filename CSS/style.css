@@ -1,1 +1,10 @@
-font-family: 'Lemonada', cursive;
+body {
+  background-color: salmon;
+}
+h1{
+  font-family: 'Lemonada', cursive;
+  text-align: center;
+}
+#fish {
+text-align: center
+}
