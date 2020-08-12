@@ -1,11 +1,17 @@
+title{
+  text-align: center;
+}
+
 body{
-  background-color: salmon;
+  background-color: rgb(238, 164, 156);
   width: 60%;
   margin: auto;
+  text-align: center;
 }
 
 table{
-  border: 2px solid blue;
+  text-align: center;
+  border: 2px solid black;
   padding: 1em;
   margin: 1em;
 }
@@ -13,7 +19,7 @@ table{
 th {
   background-color: rgb(55, 56, 56);
   color: white;
-  border: 2px solid red;
+  border: 2px solid orange;
   padding: 1em;
   margin: 1em;
 }
