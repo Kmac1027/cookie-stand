@@ -43,6 +43,8 @@ width: 75%;
 
 .saleBoards {
   color: #69bd9e;
+  text-align: center;
+  margin-left: 100px;
 }
 
 
@@ -54,10 +56,13 @@ width: 75%;
 #saleTitle{
   background-color: #65b89e;
   color: #69bd9e;
+  text-align: center;
+  padding-left: 100px;
 }
 
 #image1 {
   text-align: center;
+  
 }
 
 
