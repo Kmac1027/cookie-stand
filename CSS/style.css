@@ -1,62 +1,120 @@
-#shopTitle {
-  font-weight: 900;
-  font-size: xxx-large;
-  color: #fa9872;
+#fish {
+
+  z-index: -1;
+  padding-top: 10px;
+  background-color:honeydew;
   text-align: center;
-  font-family: 'Luckiest Guy', cursive;
+  scroll-padding-top: 50%;
+  border: honeydew;
+  border-width: 30px;
+  color: #65b89e;
 }
 
-#fish {
-  text-align: center;
+#fishImg{
+  padding-bottom: 5%;;
 }
 
 body {
-  font-size: 2em;
+
   font-family: Georgia;
-  background-color: #72ECFA;
+  background-color: #f8fff0;
 }
 
-
-
-.listItems {
-  font-family: 'Luckiest Guy', cursive;
-  color: salmon;
-}
-
-#tableData {
-  display: inline-block;
-  text-align: center;
-  font-family: Arial;
-  background-color: #fadc72;
-}
-
-.allTable {
-  border-style: solid;
-  text-align: center;
-  border-color: black;
-}
-
-.tableList1 {
-  font-weight: bolder;
-  font-family: Arial;
-  font-size: 1em;
-  color: #bd72fa;
-}
-
-.tableList {
-  font-weight: bold;
-  font-size: 1em;
-}
-
-td {
-  border-style: solid;
-  text-align: center;
-  border-color: black;
-  padding: 5px;
+hr{
+  height: 4px;
+ background-color: #a1d6c3;
+ color: #a1d6c3;
+ 
 }
 
 h1 {
-  text-align: center;
   font-family: 'Luckiest Guy', cursive;
-  color: salmon;
+  font-weight: 900;
+  font-size: 6rem;
+  color: #69bd9e;
+  text-align: center;
+  background-color: honeydew;
+}
+
+#allImages {
+  height: 50%;
+width: 75%;
+}
+
+.saleBoards {
+  color: #69bd9e;
+}
+
+
+.saleBoards h3{
+  text-decoration: underline;
+  position: relative;
+}
+
+#saleTitle{
+  background-color: #65b89e;
+  color: #69bd9e;
+}
+
+#image1 {
+  text-align: center;
+}
+
+
+#sale1 {
+  margin: 2%;
+  float: left;
+  background-color: honeydew;
+  border-style: solid;
+  border-width: 10%;
+  width: 300px;
+  height: 400px;
+  font-size: 2rem;
+ 
+  text-align: center;
+}
+
+#sale2 {
+  margin: 2%;
+  float: left;
+  background-color: honeydew;
+  border-style: solid;
+  border-width: 10%;
+  width: 300px;
+  height: 400px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#sale3{
+  margin: 2%;
+  float: left;
+  background-color: honeydew;
+  border-style: solid;
+  border-width: 10%;
+  width: 300px;
+  height: 400px;
+  font-size: 2rem;
+  
+  text-align: center;
+}
+
+#sale3 h3 {
+  text-decoration: underline;
+}
+
+.about-section{
+  
+  text-align: center;
+}
+
+#aboutTitle{
+  background-color: honeydew;
+  border-style: solid;
+  text-align: center;
+  padding: 5% 10%;
+}
+
+footer{
+  text-align: center;
 }
