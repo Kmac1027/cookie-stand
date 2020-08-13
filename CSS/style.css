@@ -5,6 +5,12 @@ h1{
   font-family: 'Lemonada', cursive;
   text-align: center;
 }
+h2{
+  text-align: center;
+}
 #fish {
 text-align: center
+}
+#img {
+  text-align: right;
 }
