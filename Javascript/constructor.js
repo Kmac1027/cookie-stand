@@ -81,7 +81,7 @@ lima.renderTableList();
 
 var form = document.getElementById('form')
 
-form.addEventListener('submit', function(event){
+form.addEventListener('submit', function (event) {
   event.preventDefault();
   var storeName = event.target.storename.value;
   var minCust = event.target.mincustomer.value;
@@ -91,3 +91,22 @@ form.addEventListener('submit', function(event){
   storeName.cookiesPerHour();
   storeName.renderTableList();
 });
+
+function footer() {
+  var footerRow = document.createElement('tr');
+  var dailyTotalAllStores = document.createElement('td');
+  dailyTotalAllStores.textContent = 'Daily Total of All Stores per Hour';
+  footerRow.appendChild(dailyTotalAllStores);
+  for (var i = 0; i < clock.length; i++) {
+    var hourlyTotals = 0;
+    for (var j = 0; j < allStores.length; j++) {
+      hourlyTotals += allStores[j].hourlyCookies[i];
+    }
+    var footerData = document.createElement('td')
+    footerData.textContent = hourlyTotals;
+    footerRow.appendChild(footerData);
+  }
+  parentElement.appendChild(footerRow);
+}
+
+footer();
