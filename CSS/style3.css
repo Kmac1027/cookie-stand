@@ -1,0 +1,38 @@
+header {
+  font-family: 'Lemonada', cursive;
+  color: black;
+  text-align: center;
+  background-color: white;
+  background-image: url(../images/fish.jpg);
+  
+}
+body {
+  font-family: 'Lemonada', cursive;
+  background-image: linear-gradient(rgba(153, 225, 238, 0.829), rgba(255, 255, 255, 0.836));
+}
+nav ul li {
+  display: inline;
+  margin: 50px;
+  border: 50px;
+  padding: 50px;
+}
+#pat {
+  text-align: left;
+  border-radius: 35%;
+  float: left;
+  margin: 10px;
+}
+#pat-text {
+  text-align: right;
+}
+.size {
+  height: 100px;
+  width: 100px;
+}
+#merch {
+  float: right;
+}
+.big {
+  height: 100px;
+  width: 300px;
+}
