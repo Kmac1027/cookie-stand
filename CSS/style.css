@@ -1,3 +1,9 @@
+header {
+  background-color: cyan;
+}
+#add {
+  float: right;
+}
 body {
   background-color: salmon;
 }
@@ -8,9 +14,47 @@ h1{
 h2{
   text-align: center;
 }
+nav ul li {
+  display: inline;
+  color: whitesmoke;
+  text-align: center;
+  border: solid;
+  background-color: rgba(143, 58, 192, 0.726);
+  border-color: rgba(187, 51, 51, 0.747);
+  font-size: 1.2em;
+  margin: 5%;
+}
 #fish {
 text-align: center
 }
-#img {
-  text-align: right;
+
+#one {
+  background-color: seagreen;
+  height: 200px;
+  width: 300px;
+}
+#two {
+  background-color: rgb(154, 204, 176);
+  height: 200px;
+  width: 300px;
+}
+#three {
+  background-color: rgb(157, 215, 238);
+  height: 200px;
+  width: 300px;
+}
+#four {
+  background-color: rgb(150, 176, 201);
+  height: 200px;
+  width: 300px;
+}
+#five {
+  background-color: chartreuse;
+  height: 200px;
+  width: 300px;
+}
+footer {
+  font-size: 5em;
+  text-align: center;
+  background-color: yellowgreen;
 }
