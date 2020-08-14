@@ -1,8 +1,7 @@
-body{
-  background-color: salmon;
-  width: 60%;
-  margin: auto;
-}
+  body {
+    font-family: 'Lemonada', cursive;
+    background-image: linear-gradient(rgba(153, 225, 238, 0.829), rgba(255, 255, 255, 0.836));
+  }
 
 table{
   border: 2px solid blue;
