@@ -4,7 +4,10 @@ header {
   text-align: center;
   background-color: white;
   background-image: url(../images/fish.jpg);
-  
+}
+#boxone {
+  border: black;
+  background-color:white;
 }
 body {
   font-family: 'Lemonada', cursive;
@@ -23,16 +26,32 @@ nav ul li {
   margin: 10px;
 }
 #pat-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(41, 91, 124);
+  font-size: 2em;
   text-align: right;
 }
 .size {
   height: 100px;
   width: 100px;
 }
-#merch {
-  float: right;
+
+#extra {
+  text-align: center;
+  background-color: rgb(37, 177, 212);
+  color: rgb(36, 33, 88);
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 .big {
   height: 100px;
   width: 300px;
+}
+footer {
+  color: rgb(243, 124, 124);
 }
